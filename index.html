@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Pribadi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #1e3c72, #837a05);
+      color: white;
+      line-height: 1.6;
+    }
+    header {
+      padding: 100px 20px;
+      text-align: center;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    }
+    header h1 {
+      font-size: 3rem;
+      animation: fadeInDown 1s ease-out;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      color: #ccc;
+    }
+    .btn {
+      margin-top: 20px;
+      padding: 10px 25px;
+      background: #ff416c;
+      background: linear-gradient(to right, #ff4b2b, #ff416c);
+      border: none;
+      border-radius: 25px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(255, 65, 108, 0.6);
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .project-card {
+      background: rgba(255,255,255,0.05);
+      padding: 20px;
+      border-radius: 15px;
+      backdrop-filter: blur(6px);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    footer {
+      text-align: center;
+      padding: 30px 10px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    @keyframes fadeInDown {
+      0% { opacity: 0; transform: translateY(-30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Adi Jaya Pratama</h1>
+  </header>
+
+  <section id="tentang">
+    <h2>Infestasi Kan Dana Anda </h2>
+    <p>Investasi Bitcoin (BTC), yaitu kegiatan menanamkan uang atau aset ke dalam Bitcoin dengan harapan nilainya akan naik dan memberi keuntungan di masa depan.
+
+.</p>
+  </section>
+
+  <section id="projek">
+    <h2>Projek Saya</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Harga btc</h3>
+        <p>Harga BTC saat ini berada di kisaran $105 855, naik sekitar 1,35% dalam 24 jam terakhir 
+
+          Minggu ini volatil: BTC stabil di atas $100 000 selama 30 hari terakhir, meskipun sempat mengalami sedikit tekanan pasar
+        </p>
+      </div>
+      <div class="project-card">
+        <h3>Belajar Bersama</h3>
+        <p>Upgrade skill terus: belajar hal yang market butuh (tech, digital, keuangan, kreatif).
+
+Diversifikasi income: jangan cuma ngandelin 1 sumber.
+
+Investasi bijak: emas, kripto, saham, atau usaha.
+
+Bangun personal branding: jadi orang yang dicari, bukan mencari.
+
+Belajar finansial: ngerti cara ngatur duit = selamat jangka panjang.
+
+.</p>
+      </div>
+      <div class="project-card">
+        <h3>⚠️ Kesimpulan Hari Ini</h3>
+        <p>Harga BTC stabil dan cenderung menguat sejak minggu lalu dengan sentimen positif yang diperkuat oleh proyeksi bullish.
+
+Namun, tetap ada risiko koreksi jangka pendek di level $100 000–$102 734.
+
+Pantau support kritis serta indikator likuidasi jika situasi pasar global tiba-tiba memanas.
+</p>
+      </div>
+      <h3>🪙 Apakah BTC bisa menembus US$2 juta?</h3>
+        <p>Institusi / Analis	Target BTC
+Standard Chartered	$200.000 (2025)
+ARK Invest (Cathie Wood)	$650.000–$1M (2030)
+Robert Kiyosaki	Dukung target >$300k
+CryptoQuant	$160k–$180k realistis.
+</p>
+    </div>
+  </section>
+
+
+  <footer>
+    &copy; 2025 Adi Jaya Pratama. Dibuat dengan semangat dan kopi.
+  </footer>
+</body>
+</html>
